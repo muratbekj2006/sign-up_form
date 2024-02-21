@@ -5,8 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign up Form</title>
+    <link href="styles.css" rel="stylesheet">
 </head>
-<body>
-    
+<body class="body">
+    <section class="logo__company">
+        <img src="src/img/sign-up-form.png">
+        <h2>Join and Stay Connected!!</h2>
+    </section>
+    <section class="form_setup">
+        <div class="form__heading">
+            <h3>Get Started</h3>
+        </div>
+        <div class="form_input">
+            <div class="form_input__row1">
+                <div class="form__fname">
+                    <p>Name</p>
+                    <input type="text">
+                </div>
+                <div class="form_lname">
+                    <p>Last Name</p>
+                    <input type="text">
+                </div>
+            </div>
+            <div class="form_input__row2">
+                <div class="form__email">
+                    <p>Email</p>
+                    <input type="email" placeholder="example@email.com">
+                </div>
+                <div class="form__number">
+                    <p>Phone number</p>
+                    <!-- Fix problem -->
+                    <input type="text" maxlength="13">
+                </div>
+            </div>
+            <div class="form__passwords">
+                <div class="form__passwords">
+                    <p>Password</p>
+                    <input type="password">
+                </div>
+                <div class="form__securepass">
+                    <p>Confirm Passowrd</p>
+                    <input type="password">
+                </div>
+            </div>
+            <div class="button">
+                <div class="create_account">
+                    <a href="" class="button-action"></a>
+                </div>
+                <p>Already have an account? <a href="">Log In!</a></p>
+            </div>
+
+
+        </div>
+    </section>
 </body>
 </html>
