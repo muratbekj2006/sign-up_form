@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    background-color: #292827;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Right side of page */
+
+.logo__company {
+    background-color: #19a404;
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+    height: 100vh;
+}
+
+.company_name {
+    margin-top: 20px;
+    margin-left: 30px;
+    text-transform: uppercase;
+}
+
+.logo__company-image {
+    width: 590px;
+}
+
+.image__caption {
+    position: absolute;
+    top: 550px;
+    left: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.form_setup {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 40px;
+}
+
+.form__heading {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.form__input {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+.form_input__row {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    font-size: 30px;
+}
+
