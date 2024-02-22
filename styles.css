@@ -64,3 +64,32 @@
     font-size: 30px;
 }
 
+.button {
+    margin-top: 30px;
+}
+
+
+.button-action {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 15px;
+    background-color: #19a404;
+}
+
+.log_in {
+    margin-top: 20px;
+    font-size: 15px;
+    color: #e3dfda;
+}
+
+.log_in__button {
+    text-decoration: none;
+    color: #9b9793;
+}
+
+.log_in__button:hover {
+    transition: 1s;
+    color: #19a404;
+}
+
