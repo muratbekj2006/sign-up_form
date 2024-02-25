@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign up Form</title>
     <link href="styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Kode+Mono&display=swap" rel="stylesheet">
 </head>
 <body class="body">
     <section class="logo__company">
@@ -20,33 +23,33 @@
         <div class="form_input">
             <div class="form_input__row">
                 <div class="form__fname">
-                    <p>Name</p>
-                    <input type="text" class="text_input">
+                    <p class="form_input__text">Name</p>
+                    <input type="text" class="text_input form_input__prompt">
                 </div>
                 <div class="form_lname">
-                    <p>Last Name</p>
-                    <input type="text" class="text_input">
+                    <p class="form_input__text">Last Name</p>
+                    <input type="text" class="text_input form_input__prompt">
                 </div>
             </div>
             <div class="form_input__row">
                 <div class="form__email">
-                    <p>Email</p>
-                    <input type="email" placeholder="example@email.com" class="email_input">
+                    <p class="form_input__text">Email</p>
+                    <input type="email" placeholder="example@email.com" class="email_input form_input__prompt">
                 </div>
                 <div class="form__number">
-                    <p>Phone number</p>
+                    <p class="form_input__text">Phone number</p>
                     <!-- Fix problem -->
-                    <input type="text" maxlength="13">
+                    <input type="text" maxlength="13" class="form_input__prompt">
                 </div>
             </div>
             <div class="form_input__row">
                     <div class="form__passwords">
-                        <p>Password</p>
-                        <input type="password" class="password_input">
+                        <p class="form_input__text">Password</p>
+                        <input type="password" class="password_input form_input__prompt">
                     </div>
                     <div class="form__securepass">
-                        <p>Confirm Passowrd</p>
-                        <input type="password" class="password_input">
+                        <p class="form_input__text">Confirm Passowrd</p>
+                        <input type="password" class="password_input form_input__prompt">
                     </div>
             </div>
             <div class="button">
@@ -54,7 +57,7 @@
                     <a href="" class="button-action">Create Account</a>
                 </div>
                 <div class="log_in">
-                    <p>Already have an account? <a href="" class="log_in__button">Log In!</a></p>
+                    <p class="form_input__text">Already have an account? <a href="" class="log_in__button">Log In!</a></p>
                 </div>
             </div>
 
